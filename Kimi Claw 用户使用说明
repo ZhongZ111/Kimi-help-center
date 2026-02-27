@@ -1,3 +1,5 @@
+Kimi Claw 用户使用说明
+
 如果您希望使用Google、Telegram等服务，请使用Google邮箱注册账户，使用海外版Kimi并创建Kimi Claw。
 
 欢迎使用 Kimi Claw，本文将会为你介绍 Kimi Claw 的主要功能和使用技巧，帮助你一步步打造独属于你的7x24 在线的个性化AI助手。
@@ -61,12 +63,11 @@ Kimi Claw内置Skill会帮助你配置不同的机器人，你可以和它说：
   - 前往 飞书开发者平台 。
   - 点击【创建企业自建应用】，设置 App 名称和描述。
   - 点击添加机器人，创建机器人服务
-[图片]
-[图片]
+
 2. 设置机器人权限
   1. 进入权限设置页面
   2. 复制下面的内容添加到【批量导入/导出权限】，如果你需要其他权限也可以根据情况自行添加
-[图片]
+
  权限配置列表
 {
   "scopes": {
@@ -128,23 +129,19 @@ Kimi Claw内置Skill会帮助你配置不同的机器人，你可以和它说：
   - 进入 凭证与基础信息 页
   - 复制 App ID 和 App Secret 一起发给 Kimi Claw，并告知它这是飞书机器人的应用凭证
   - Kimi Claw 配置完成后，让它重启自己使配置生效，或手动点击设置内的【重启 Kimi Claw】
-[图片]
-[图片]
+
 4. 配置事件接收
   - 在Kimi Claw重启完成后，切换到事件与回调页面
   - 选择订阅方式 > 使用 长连接 接收事件，点击【保存】
   - 保存后添加事件：im.message.receive_v1 
-[图片]
+
 5. 发布应用，开始聊天
   - 切换到版本管理与发布，发布应用
   - 在飞书里搜索它的名字，开始对话吧
-[图片]
-[图片]
+
 6. 如果你和飞书机器人聊天时遇到需要匹配的情况：
-[图片]
   请在网页端右上角打开【终端】把：openclaw pairing approve feishu xxxxx 发到终端，再和Kimi Claw对话就可以回复了。
-[图片]
-[图片]
+
 
 3. FAQ
 3.1 所有平台支持Kimi Claw么？
@@ -154,11 +151,11 @@ Kimi Claw目前在网页端、海外版手机端（iOS / Android）可以使用�
 - 如果依然没有反馈，可以尝试在设置内重启服务，服务重启完成后和 Kimi Claw 对话看是否可以得到反馈。
 - 以上方式均不可行，可以尝试在设置内点击【自动修复 Kimi Claw】。
 
-[图片]
 3.3 Kimi Claw 可以向我收发文件么？
 - 你可以通过Kimi向 Kimi Claw 发送图片、文件等内容，Kimi Claw会使用工具查看。
 - 最新版本Kimi已经支持 Kimi Claw 向你发文件，如果您的 Kimi Claw 无法上传，请升级插件到最新版本。
 - 你可以使用飞书机器人完成文件的获取你需要的文件。
+
 3.4 在飞书群里 @ 机器人没有反应怎么办 ？
 飞书机器人默认策略没有相应群内对话，如果飞书机器人没有响应群聊，请和它说“将飞书的群聊策略调整为open”，然后重启Kimi Claw，就可以在群里 @ 机器人 并对话了。或者发给机器人这段话：
 你帮我加上这几个配置
@@ -166,14 +163,17 @@ dmPolicy: pairing（私聊需要配对）
 groupPolicy: open（所有群都响应）
 requireMention: true（群里需要@才响应）
 然后重启Kimi Claw就可以生效。
+
 3.5 我可以使用命令行（Terminal）么？
 支持直接通过命令行控制Kimi Claw，可通过【设置】【打开终端】后输入。
 你也可以将你需要执行的命令告诉Bot，它会帮你执行。
 注意Terminal和插件共享交互通路，重启openclaw gateway会导致terminal断开连接。
+
 3.6 如何在关联的OpenClaw里面卸载Kimi插件？
 注意以下命令仅适用于关联OpenClaw设备上卸载Kimi插件，请不要在一键部署的Kimi Claw设备内运行下面的命令，运行会造成您和Kimi Claw的连接断开并不可修复。
 您可以在关联OpenClaw设备上运行这条指令卸载Kimi插件。
 bash <(curl -fsSL https://cdn.kimi.com/kimi-claw/uninstall.sh)
+
 3.7 配置了 Tailscale 之后 Kimi Claw 断开了连接怎么办？
 如果发现配置了 Tailscale 之后 Kimi Claw 断开了连接，这是由于系统的 DNS 配置被 Tailscale 覆盖导致的。请尝试：
 1. 打开 [TailScale DNS 配置页面](https://login.tailscale.com/admin/dns)；
