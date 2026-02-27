@@ -1,7 +1,6 @@
 # Kimi-help-center
 Kimi产品介绍、使用指南、常见用户问题
-Kimi Claw 用户使用说明
-9. Kimi Claw 介绍
+Kimi Claw 介绍
 OpenClaw是一个具备独特个性与长期记忆能力的 AI 助手，在Kimi里可以通过Kimi Claw开启你和OpenClaw的对话。如果您希望使用Google、Telegram等服务，请使用Google邮箱注册账户，使用海外版Kimi并创建Kimi Claw。
 - 一键部署 OpenClaw
   如果你还没有自己的OpenClaw，可以先前往 创建 Kimi Claw 页面创建专属的OpenClaw。
@@ -88,6 +87,7 @@ Kimi Claw内置Skill会帮助你配置不同的机器人，你可以和它说：
     "user": ["aily:file:read", "aily:file:write", "im:chat.access_event.bot_p2p_chat:read"]
   }
 }
+
 3. 复制凭证发给 Kimi Claw
   - 进入 凭证与基础信息 页
   - 复制 App ID 和 App Secret 一起发给 Kimi Claw，并告知它这是飞书机器人的应用凭证
@@ -103,8 +103,10 @@ Kimi Claw内置Skill会帮助你配置不同的机器人，你可以和它说：
   - 在飞书里搜索它的名字，开始对话吧
 
 常见问题FAQ
+
 1.所有平台支持Kimi Claw么？
 Kimi Claw目前在网页端、海外版手机端（iOS / Android）可以使用，国内即将上线。
+
 2.Kimi Claw 不回消息或者回的很慢怎么办？
 - 如果Kimi Claw对话框一直显示加载状态，可以尝试再发一条消息，或者重新刷新页面。
 - 如果依然没有反馈，可以尝试在设置内重启服务，服务重启完成后和 Kimi Claw 对话看是否可以得到反馈。
@@ -114,8 +116,10 @@ Kimi Claw目前在网页端、海外版手机端（iOS / Android）可以使用�
 - 你可以通过Kimi向 Kimi Claw 发送图片、文件等内容，Kimi Claw会使用工具查看。
 - 最新版本Kimi已经支持 Kimi Claw 向你发文件，如果您的 Kimi Claw 无法上传，请升级插件到最新版本。
 - 你可以使用飞书机器人完成文件的获取你需要的文件。
+
 4.在飞书群里 @ 机器人没有反应怎么办 ？
 飞书机器人默认策略没有响应群内对话，如果飞书机器人没有响应群聊，请和它说“将飞书的群聊策略调整为open”，然后重启Kimi Claw，就可以在群里 @ 机器人 并对话了。
+
 5.我可以使用命令行（Terminal）么？
 支持直接通过命令行控制Kimi Claw，可通过【设置】【打开终端】后输入。
 你也可以将你需要执行的命令告诉Bot，它会帮你执行。
@@ -125,6 +129,7 @@ Kimi Claw目前在网页端、海外版手机端（iOS / Android）可以使用�
 注意以下命令仅适用于关联OpenClaw设备上卸载Kimi插件，请不要在一键部署的Kimi Claw设备内运行下面的命令，运行会造成您和Kimi Claw的连接断开并不可修复。
 您可以在关联OpenClaw设备上运行这条指令卸载Kimi插件。
 bash <(curl -fsSL https://cdn.kimi.com/kimi-claw/uninstall.sh)
+
 7.配置了 Tailscale 之后 Kimi Claw 断开了连接怎么办？
 如果发现配置了 Tailscale 之后 Kimi Claw 断开了连接，这是由于系统的 DNS 配置被 Tailscale 覆盖导致的。请尝试：
 1. 打开 [TailScale DNS 配置页面](https://login.tailscale.com/admin/dns)；
