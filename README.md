@@ -87,7 +87,7 @@ Kimi Claw内置Skill会帮助你配置不同的机器人，你可以和它说：
     "user": ["aily:file:read", "aily:file:write", "im:chat.access_event.bot_p2p_chat:read"]
   }
 }
-
+ 
 3. 复制凭证发给 Kimi Claw
   - 进入 凭证与基础信息 页
   - 复制 App ID 和 App Secret 一起发给 Kimi Claw，并告知它这是飞书机器人的应用凭证
