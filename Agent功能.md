@@ -1,7 +1,7 @@
 #help centor
 
 深度研究
-
+ 
 1.深度研究是什么
 Kimi 的深度研究（Deep Research）是 Moonshot AI 推出的一项 AI 驱动的自主调研功能，本质是一个多步骤 AI Agent 工作流。
 <img width="2996" height="1494" alt="image" src="https://github.com/user-attachments/assets/0ebbfd3d-7487-421e-975b-c3ab61a08dd9" />
