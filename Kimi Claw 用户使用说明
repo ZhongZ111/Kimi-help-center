@@ -5,15 +5,15 @@ Kimi Claw 用户使用说明
 欢迎使用 Kimi Claw，本文将会为你介绍 Kimi Claw 的主要功能和使用技巧，帮助你一步步打造独属于你的7x24 在线的个性化AI助手。
 
 1. Kimi Claw 介绍
-OpenClaw是一个具备独特个性与长期记忆能力的 AI 助手，在Kimi里可以通过Kimi Claw开启你和OpenClaw的对话。
+OpenClaw是一个具备独特个性与长期记忆能力的 AI 助手，在Kimi里可以通过Kimi Claw（https://www.kimi.com/bot）开启你和OpenClaw的对话。
 - 一键部署 OpenClaw
   如果你还没有自己的OpenClaw，可以先前往 创建 Kimi Claw 页面创建专属的OpenClaw。
   - Kimi 将为你把OpenClaw一键部署到云端，无需再额外购买服务器或者命令行配置。
   - Kimi 会帮你自动配置Kimi K2.5 Thinking 模型并自动关联 Kimi Code 会员权益额度，无需额外配置API。同时会自动配置Kimi Web Search服务，为AI提供联网搜索能力。
-  - 一键部署仅支持 Allegretto 及以上计划，详见 Kimi 会员计划 。
+  - 一键部署仅支持 Allegretto 及以上计划，详见 Kimi 会员计划（https://www.kimi.com/membership/pricing?track_id=8aa43b53-4aa7-4fe1-b9c4-0646eafcb5e8） 。
 - 关联现有 OpenClaw
   - 如果你已经部署了自己的OpenClaw，也可以通过安装Kimi插件的方式实现在Kimi里和OpenClaw聊天。
-  - 前往 Kimi Claw 页面选择【关联已有 OpenClaw】，跟随指引在运行OpenClaw的设备上安装插件，你就可以在Kimi里和自己的OpenClaw对话了。
+  - 前往 Kimi Claw （https://www.kimi.com/bot）页面选择【关联已有 OpenClaw】，跟随指引在运行OpenClaw的设备上安装插件，你就可以在Kimi里和自己的OpenClaw对话了。
 
 2. 使用技巧
 很多人把 Kimi Claw 当成“能回答问题的工具”，但实际上它更像一个“可塑的助手”：你说清规则，它就能换一种性格并记住；你教它方法，它就能形成习惯；你给它时间表，它就能按点帮你推进事务。
@@ -60,9 +60,10 @@ OpenClaw是一个具备独特个性与长期记忆能力的 AI 助手，在Kimi�
 2.4 配置飞书机器人
 Kimi Claw内置Skill会帮助你配置不同的机器人，你可以和它说：“我想配置飞书机器人”，它就会给你一份逐步完成的方案。为了更清晰的展示配置过程，我们也提供了飞书机器人的配置说明，请参照下面的步骤完成配置。
 1. 创建飞书机器人
-  - 前往 飞书开发者平台 。
+  - 前往 飞书开发者平台（https://open.feishu.cn/app ） 。
   - 点击【创建企业自建应用】，设置 App 名称和描述。
   - 点击添加机器人，创建机器人服务
+
 
 2. 设置机器人权限
   1. 进入权限设置页面
