@@ -1,7 +1,7 @@
 Kimi Claw 介绍 OpenClaw是一个具备独特个性与长期记忆能力的 AI 助手，在Kimi里可以通过Kimi Claw开启你和OpenClaw的对话。如果您希望使用Google、Telegram等服务，请使用Google邮箱注册账户，使用海外版Kimi并创建Kimi Claw。
 
 一键部署 OpenClaw 如果你还没有自己的OpenClaw，可以先前往 创建 Kimi Claw 页面创建专属的OpenClaw。
-Kimi 将为你把OpenClaw一键部署到云端，无需再额外购买服务器或者命令行配置。
+Kimi 将为你把OpenClaw一键部署到云端，无需再额外购买服务器或者命令行配置。1
 Kimi 会帮你自动配置Kimi K2.5 Thinking 模型并自动关联 Kimi Code 会员权益额度，无需额外配置API。同时会自动配置Kimi Web Search服务，为AI提供联网搜索能力。
 一键部署仅支持 Allegretto 及以上计划，详见 Kimi 会员计划 。
 关联现有 OpenClaw
