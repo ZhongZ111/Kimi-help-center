@@ -1,2 +1,3 @@
 # Kimi-help-center
-Kimi产品介绍与常见使用指南
+Kimi产品介绍、使用指南、常见用户问题
+
